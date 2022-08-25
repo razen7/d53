@@ -1,0 +1,67 @@
+/* Personal Default CSS Resets - Compulsory */
+:root {
+    --the-red-fence: 2px solid red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+button {
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Personal Default CSS Resets - Optional */
+body {
+    background-color: #1F806A;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Custom Site Css */
+.center-container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    background-color: #ebebeb;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px;
+    padding: 10px;
+    transition: all 1s;
+}
+button:hover{
+    background-color: #ded7d7;
+}
+.notification{
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    top: 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    visibility: hidden;
+}
